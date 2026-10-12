@@ -8,11 +8,11 @@ namespace karrenkontrolle::server
 
     void registerRoutesV1()
     {
-        const std::string apiPrefix = "api/v1";
+        const std::string apiPrefix = "/api/v1";
         Router router(apiPrefix);
 
         // Simple get test controller
-        router.get("/api/v1/ping", controller::ping);
+        router.get("/ping", controller::ping);
 
         // Get testcontroller with a path variable
         router.get<std::string>(
