@@ -21,6 +21,7 @@ target_sources(karrenkontrolle PRIVATE
     src/server/routes/src/Routes.cpp
     src/infrastructure/logging/src/Logging.cpp
     src/config/src/AppConfig.cpp
+    src/server/middleware/src/AuthGuard.cpp
 )
 
 # Find all header files recursively
