@@ -1,8 +1,7 @@
-#vcpkg
-/external/vcpkg/
+# vcpkg
 /vcpkg_installed/
 
-#cmake
+# CMake
 /build/
 /build-*/
 /cmake-build/
@@ -13,7 +12,7 @@
 /compile_commands.json
 /Testing/
 
-#C++ Build Artifacts
+# C++ Build Artifacts
 *.o
 *.obj
 *.a
@@ -26,16 +25,16 @@
 *.pdb
 *.ilk
 
-#environment/secrets
+# Environment / Secrets
 .env
 .env.*
 !.env.example
 !.env.*.example
 
-#IDE
+# IDE
 .vscode/
 
-#Os
+# OS
 .DS_Store
 Thumbs.db
 desktop.ini
