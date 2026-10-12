@@ -1,0 +1,21 @@
+
+# Local build files
+build/
+build-*/
+cmake-build*/
+out/
+vcpkg_installed/
+
+# vcpkg is fetched inside Docker, so it is ingored here!!!
+external/vcpkg/
+
+# Editor
+.vscode/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
